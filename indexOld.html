@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>HTML5 - 12届蓝线训练营</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-background="Metro/1.jpg">
+					<h2>蓝线俱乐部</h2>
+					<h3>HTML5 Web应用及游戏开发</h3>
+					<p>
+						<small>Created by Blueline 秦家祺</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>什么是HTML</h2>
+					<p>
+						超文本标记语言，HTML（Hypertext Markup Language），是用于描述网页文档的一种标记语言。
+					</p>
+
+				</section>
+
+				<section data-background="Metro/2.jpg">
+						<h2>什么是CSS</h2>
+						<p>
+							级联样式表（Cascading Style Sheet）,可以扩充精确指定网页元素位置，外观以及创建特殊效果的能力。
+						</p>
+					</section>
+
+					<section>
+						<h2>什么是JS(JavaScript)</h2>
+						<p>
+							是一款基于客户端的动态脚本语言。
+						</p>
+					</section>
+
+				<section>
+					<section data-background="Metro/3.jpg">
+						<h2>什么是HTML5</h2>
+						<p>
+							HTML5赋予网页更好的意义和结构。更加丰富的标签将随着对RDFa的，微数据与微格式等方面的支持，构建对程序、对用户都更有价值的数据驱动的Web。
+						</p>
+					</section>
+
+					<section data-background="Metro/4.jpg">
+						<h2>HTML5有哪些特性</h2>
+						<p><ul>
+							<li>本地存储特性</li>
+							<li>设备兼容特性</li>
+							<li>连接特性</li>
+							<li>网页多媒体特性</li>
+							<li>三维、图形及特效特性</li>
+							<li>性能与集成特性</li>
+							<li>CSS3特性</li>
+						</ul></p>
+					</section>
+
+					<section data-background="Metro/5.jpg">
+						<h2>下面系统地了解下HTML5</h2>
+						<a href="http://www.html5rocks.com" target="_blank">HTML5 介绍</a>
+					</section>
+</section>
+				<section>
+				
+
+				
+						<h2>下面我们来看一款HTML5游戏</h2>
+						<a href="http://localhost/Poo/" target="_blank">Poo Poo Producer</a>
+					</section>
+
+				<section>
+					<h1>THE END</h1>
+					<h2>BY BLUELINE 秦家祺</h2>
+					<h3>2013.06.29</h3>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'cube', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
